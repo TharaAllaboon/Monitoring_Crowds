@@ -50,10 +50,10 @@ The below is a prototype of the interface of the Crowd Monitoring software syste
 ## Implementation
 The Monitoring Crowd System is implemented using Python 2.7 
 In addition, multiple packages and libraries has been used such as OpenCV and NumPy as detailed below:
-* [Numpy] (https://numpy.org/)
-* [OpenCV] (https://opencv.org/)
-* [Optical Flow] (https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html)
-* [The Lucas-Kanade Algorithm] (https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method)
+* [Numpy](https://numpy.org/)
+* [OpenCV](https://opencv.org/)
+* [Optical Flow](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html)
+* [The Lucas-Kanade Algorithm](https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method)
 
 ### System Results
 Here’s a screenshot of a video at Mina, Makkah where a stampede is happening before running the system:
