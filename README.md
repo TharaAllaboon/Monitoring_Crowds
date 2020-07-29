@@ -5,19 +5,19 @@ This project has been created as part of my university senior project requiremen
 
 # Table of contents:
 
-- [Problem Statment](## Problem Statment)
-- [Project Scope](## Project Scope)
-	- [Fact Finding Technique] (###Fact Finding Technique)
-- [Proposed System](##Proposed System)
-	- [Crowd Monitoring System UI] (###Corwd Monitoring System Interface (Prototype))
+- [Problem Statement](##Problem-Statement)
+- [Project Scope](##Project-Scope)
+  * [Fact Finding Technique](#Fact-Finding-Technique)
+- [Proposed System](##Proposed-System)
+  * [Corwd Monitoring System Interface (Prototype)](###Corwd-Monitoring-System-Interface-(Prototype))
 - [Implementation](##Implementation)
-	- [System Results](###System Results)
-- [Conculsion](##Conculsion)
+  * [System Results](###System-Results)
+- [Conclusion](##Conclusion)
 - [References](##References)
-	- [Appendix](###Appendix)
+  * [Apendix](###Apendix)
 
 
-## Problem Statment
+## Problem Statement
 Managing the crowds in big venues and events has been an issue many decades for organizers and officials.
 Crowds gathering in one place or events such as sporting even or religious like at Hajj pilgrimage gathering, can create crushes and stampedes, whether triggered by natural disaster or misguided crowd managers.
 
@@ -35,7 +35,7 @@ Based on the research, and the conclusion of adopting vision based solution, the
 * Estimation of threshold value for normalization
 * Gate security system for crowd flow regulation
 
-<img src="/Images/crowd-monitoring-arch.png" alt="Corwds Monitoring System">
+<img src="/Images/corwd-monitoring-arch.png" alt="Crowds Monitoring System">
 
 The proposed system will consist of the following component:
 1.	Closed Circuit Television (CCTV) Cameras
@@ -45,7 +45,7 @@ The proposed system will consist of the following component:
 
 ### Corwd Monitoring System Interface (Prototype)
 The below is a prototype of the interface of the Crowd Monitoring software system:
-<img src="/Images/crowd-monitoring-ui.png" alt="Corwds Monitoring UI">
+<img src="/Images/corwd-monitoring-UI.png" alt="Crowds Monitoring UI">
 
 ## Implementation
 The Monitoring Crowd System is implemented using Python 2.7 
@@ -57,7 +57,7 @@ In addition, multiple packages and libraries has been used such as OpenCV and Nu
 
 ### System Results
 Here’s a screenshot of a video at Mina, Makkah where a stampede is happening before running the system:
-<img src="/Images/result1.png" alt="Systme 1st Result" width="400" height="600">
+<img src="/Images/result1.png" alt="Systme 1st Result">
 
 Following are the results when applying the parameters of the (image) criteria:
 The system is detecting people with a red arrow above each person in the scene.
@@ -66,7 +66,7 @@ The system is detecting people with a red arrow above each person in the scene.
 The system then will split the video into four parts to better understand the video and crowd flow density, indicating a stampede is happening when one fourth of a video pop up on the left side of the window:
 <img src="/Images/result3.png" alt="System 3rd Result">
 
-## Conculsion
+## Conclusion
 The stampede at Mina, Hajj is a recent example of a terrible crowd disaster where, in spite of all precautions, many people died during a mass event. Pedestrian dynamics have been studied intensively for more than four decades. 
 Multiple researches have been conducting in studying the computer vision for detection and tracking pedestrian in the crowded scenes.
 In conclusion, the demonstration proves the concept of monitoring crowds using computer vision technique which allow to track people using the optical flow and to detect if there’s a stampeding situation happening. An effective proven results is shown of the algorithm implemented on different stampede scenarios.
