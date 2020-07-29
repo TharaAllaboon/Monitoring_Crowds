@@ -50,10 +50,10 @@ The below is a prototype of the interface of the Crowd Monitoring software syste
 ## Implementation
 The Monitoring Crowd System is implemented using Python 2.7 
 In addition, multiple packages and libraries has been used such as OpenCV and NumPy as detailed below:
-* [Numpy]: https://numpy.org/
-* [OpenCV]: https://opencv.org/
-* [Optical Flow]: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
-* [The Lucas-Kanade Algorithm]: https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method
+* [Numpy] (https://numpy.org/)
+* [OpenCV] (https://opencv.org/)
+* [Optical Flow] (https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html)
+* [The Lucas-Kanade Algorithm] (https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method)
 
 ### System Results
 Here’s a screenshot of a video at Mina, Makkah where a stampede is happening before running the system:
@@ -61,9 +61,11 @@ Here’s a screenshot of a video at Mina, Makkah where a stampede is happening b
 
 Following are the results when applying the parameters of the (image) criteria:
 The system is detecting people with a red arrow above each person in the scene.
+
 <img src="/Images/result2.png" alt="Systme 2nd result">
 
 The system then will split the video into four parts to better understand the video and crowd flow density, indicating a stampede is happening when one fourth of a video pop up on the left side of the window:
+
 <img src="/Images/result3.png" alt="System 3rd Result">
 
 ## Conclusion
