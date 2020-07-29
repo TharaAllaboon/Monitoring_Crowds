@@ -27,7 +27,7 @@ The main purpose of this project is to help securing the Hajj sites and ease the
 
 ### Fact Finding Technique
 After doing the research, the study discovered that using a crowd vision system for Hajj Pilgrimage is better than the current methods used in Hajj recently. Therefore, problems happening with the current methods such as unregistered pilgrims, able to run only in a single environment (The Holy Mosque) and the flaw in the planning in management of clearing areas may overflow the crowd stampede. However, computer vision can help in securing the Hajj when monitoring the crowds, saving time of years of planning and being to react immediately when a stampede happens.
-<img src="/Images/fishbone-diagram.jpg" alt="Corwds Monitoring Fishbone Diagram" width="400" height="600">
+<img src="/Images/fishbone-diagram.jpg" alt="Corwds Monitoring Fishbone Diagram">
 
 ## Proposed System
 Based on the research, and the conclusion of adopting vision based solution, the system can be split into 3 phases:
@@ -35,7 +35,7 @@ Based on the research, and the conclusion of adopting vision based solution, the
 * Estimation of threshold value for normalization
 * Gate security system for crowd flow regulation
 
-<img src="/Images/crowd-monitoring-arch" alt="Corwds Monitoring System" width="400" height="600">
+<img src="/Images/crowd-monitoring-arch.png" alt="Corwds Monitoring System">
 
 The proposed system will consist of the following component:
 1.	Closed Circuit Television (CCTV) Cameras
@@ -45,7 +45,7 @@ The proposed system will consist of the following component:
 
 ### Corwd Monitoring System Interface (Prototype)
 The below is a prototype of the interface of the Crowd Monitoring software system:
-<img src="/Images/crowd-monitoring-ui.png"alt="Corwds Monitoring UI"width="400" height="600">
+<img src="/Images/crowd-monitoring-ui.png" alt="Corwds Monitoring UI">
 
 ## Implementation
 The Monitoring Crowd System is implemented using Python 2.7 
@@ -61,10 +61,10 @@ Here’s a screenshot of a video at Mina, Makkah where a stampede is happening b
 
 Following are the results when applying the parameters of the (image) criteria:
 The system is detecting people with a red arrow above each person in the scene.
-<img src="/Images/result2.png" alt="Systme 2nd result"width="400" height="600">
+<img src="/Images/result2.png" alt="Systme 2nd result">
 
 The system then will split the video into four parts to better understand the video and crowd flow density, indicating a stampede is happening when one fourth of a video pop up on the left side of the window:
-<img src="/Images/result3.png" alt="System 3rd Result" width="400" height="600">
+<img src="/Images/result3.png" alt="System 3rd Result">
 
 ## Conculsion
 The stampede at Mina, Hajj is a recent example of a terrible crowd disaster where, in spite of all precautions, many people died during a mass event. Pedestrian dynamics have been studied intensively for more than four decades. 
