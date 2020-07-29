@@ -1,6 +1,7 @@
 # Monitoring Crowds and Avoiding Stampeded at Hajj Pilgrimage
 
 This project has been created as part of my university senior project requirements.
+
 *Academic Advisor: Dr. Souhila Nada*
 
 # Table of contents:
@@ -14,12 +15,13 @@ This project has been created as part of my university senior project requiremen
   * [System Results](###System-Results)
 - [Conclusion](##Conclusion)
 - [References](##References)
-  * [Apendix](###Apendix)
+  * [Appendix](###Appendix)
 
 
 ## Problem Statement
 Managing the crowds in big venues and events has been an issue many decades for organizers and officials.
 Crowds gathering in one place or events such as sporting even or religious like at Hajj pilgrimage gathering, can create crushes and stampedes, whether triggered by natural disaster or misguided crowd managers.
+
 
 ## Project Scope
 In this project, machine learning technology will be implemented by developing a software system that uses the computer vision technique to understand and monitor the live footage of the crowds in the Hajj pilgrimage gathering, providing the best possible solution when a stampede happen.
@@ -28,6 +30,7 @@ The main purpose of this project is to help securing the Hajj sites and ease the
 ### Fact Finding Technique
 After doing the research, the study discovered that using a crowd vision system for Hajj Pilgrimage is better than the current methods used in Hajj recently. Therefore, problems happening with the current methods such as unregistered pilgrims, able to run only in a single environment (The Holy Mosque) and the flaw in the planning in management of clearing areas may overflow the crowd stampede. However, computer vision can help in securing the Hajj when monitoring the crowds, saving time of years of planning and being to react immediately when a stampede happens.
 <img src="/Images/fishbone-diagram.jpg" alt="Corwds Monitoring Fishbone Diagram">
+
 
 ## Proposed System
 Based on the research, and the conclusion of adopting vision based solution, the system can be split into 3 phases:
@@ -46,6 +49,7 @@ The proposed system will consist of the following component:
 ### Corwd Monitoring System Interface (Prototype)
 The below is a prototype of the interface of the Crowd Monitoring software system:
 <img src="/Images/corwd-monitoring-UI.png" alt="Crowds Monitoring UI">
+
 
 ## Implementation
 The Monitoring Crowd System is implemented using Python 2.7 
@@ -68,10 +72,12 @@ The system then will split the video into four parts to better understand the vi
 
 <img src="/Images/result3.png" alt="System 3rd Result">
 
+
 ## Conclusion
 The stampede at Mina, Hajj is a recent example of a terrible crowd disaster where, in spite of all precautions, many people died during a mass event. Pedestrian dynamics have been studied intensively for more than four decades. 
 Multiple researches have been conducting in studying the computer vision for detection and tracking pedestrian in the crowded scenes.
 In conclusion, the demonstration proves the concept of monitoring crowds using computer vision technique which allow to track people using the optical flow and to detect if there’s a stampeding situation happening. An effective proven results is shown of the algorithm implemented on different stampede scenarios.
+
 
 ## References
 1. Incidents during Hajj https://en.wikipedia.org/wiki/Incidents_during_the_Hajj
@@ -80,7 +86,7 @@ In conclusion, the demonstration proves the concept of monitoring crowds using c
 4. Almoaid A. Owaidah, Thesis, Hajj Crowd Management via a Mobile Augmented Reality Application: A case of The Hajj event, Saudi Arabia, University of Glasgow 2014. 
 5. Mantoro T, Hajj Locator: A Hajj pilgrimage tracking framework in crowded ubiquitous environment, Multimedia Computing and Systems (ICMCS), 2011 International Conference, April 2011. 
 
-### Apendix
+### Appendix
 * Fishbone Diagram https://realtimeboard.com 
 * Crowd Monitoring System UI (Prototype) https://www.sketch.com/
 
