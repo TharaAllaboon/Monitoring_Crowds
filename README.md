@@ -3,6 +3,7 @@
 This project has been created as part of my university senior project requirements.
 
 *Academic Advisor: Dr. Souhila Nada*
+*April 2017*
 
 # Table of contents:
 
@@ -19,16 +20,16 @@ This project has been created as part of my university senior project requiremen
 
 
 ## Problem Statement
-Managing the crowds in big venues and events has been an issue many decades for organizers and officials.
-Crowds gathering in one place or events such as sporting even or religious like at Hajj pilgrimage gathering, can create crushes and stampedes, whether triggered by natural disaster or misguided crowd managers.
+Managing the crowds in big venues and events has been an issue for many decades for organizers and officials.
+Crowds gathering in one place or events such as sporting even or religious rituals like at Hajj pilgrimage gathering, can create crushes and stampedes, whether triggered by natural disaster or misguided crowd managers.
 
 
 ## Project Scope
-In this project, machine learning technology will be implemented by developing a software system that uses the computer vision technique to understand and monitor the live footage of the crowds in the Hajj pilgrimage gathering, providing the best possible solution when a stampede happen.
-The main purpose of this project is to help securing the Hajj sites and ease the rituals for all pilgrims
+In this project, machine learning technology will be implemented by developing a software system that uses the computer vision technique to understand and monitor the live footage of the crowds at Hajj pilgrimage gathering, providing the best possible solution when a stampede might happen.
+The main purpose of this project is to help securing the Hajj sites and ease the rituals for all pilgrims.
 
 ### Fact Finding Technique
-After doing the research, the study discovered that using a crowd vision system for Hajj Pilgrimage is better than the current methods used in Hajj recently. Therefore, problems happening with the current methods such as unregistered pilgrims, able to run only in a single environment (The Holy Mosque) and the flaw in the planning in management of clearing areas may overflow the crowd stampede. However, computer vision can help in securing the Hajj when monitoring the crowds, saving time of years of planning and being to react immediately when a stampede happens.
+After conducting a comprehensive research, the study discovered that using a crowd vision system for Hajj Pilgrimage is significantly more advanced than the current methods used in Hajj recently (dated 2017). Therefore, problems happening with the current methods such as unregistered pilgrims, able to be controlled only in a single environment (The Holy Mosque) and the flaw in the planning and management of clearing areas may overflow the crowd stampede. Nevertheless, computer vision technique can assess in securing the Hajj by monitoring the crowds and analyzing their movements, saving time of years of planning and being able to react immediately when a stampede could happens.
 <img src="/Images/fishbone-diagram.jpg" alt="Corwds Monitoring Fishbone Diagram">
 
 
@@ -52,7 +53,8 @@ The below is a prototype of the interface of the Crowd Monitoring software syste
 
 
 ## Implementation
-The Monitoring Crowd System is implemented using Python 2.7 
+The Monitoring Crowd System is implemented using Python 2.7
+
 In addition, multiple packages and libraries has been used such as OpenCV and NumPy as detailed below:
 * [Numpy](https://numpy.org/)
 * [OpenCV](https://opencv.org/)
@@ -76,7 +78,7 @@ The system then will split the video into four parts to better understand the vi
 ## Conclusion
 The stampede at Mina, Hajj is a recent example of a terrible crowd disaster where, in spite of all precautions, many people died during a mass event. Pedestrian dynamics have been studied intensively for more than four decades. 
 Multiple researches have been conducting in studying the computer vision for detection and tracking pedestrian in the crowded scenes.
-In conclusion, the demonstration proves the concept of monitoring crowds using computer vision technique which allow to track people using the optical flow and to detect if there’s a stampeding situation happening. An effective proven results is shown of the algorithm implemented on different stampede scenarios.
+In conclusion, the demonstration proves the concept of monitoring crowds using computer vision technique which allows to track people using the optical flow and to detect if there’s a stampeding situation happening. An effective proven results is shown of the algorithm implemented on different stampede scenarios.
 
 
 ## References
