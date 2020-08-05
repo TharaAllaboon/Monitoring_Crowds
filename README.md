@@ -3,9 +3,10 @@
 This project has been created as part of my university senior project requirements.
 
 *Academic Advisor: Dr. Souhila Nada*
+
 *April 2017*
 
-# Table of contents:
+# Table of contents: <!-- omit in toc -->
 
 - [Problem Statement](##Problem-Statement)
 - [Project Scope](##Project-Scope)
@@ -15,8 +16,8 @@ This project has been created as part of my university senior project requiremen
 - [Implementation](##Implementation)
   * [System Results](###System-Results)
 - [Conclusion](##Conclusion)
-- [References](##References)
-  * [Appendix](###Appendix)
+- [References](#References)
+  * [Appendix](#Appendix)
 
 
 ## Problem Statement
