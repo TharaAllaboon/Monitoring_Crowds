@@ -8,14 +8,14 @@ This project has been created as part of my university senior project requiremen
 
 # Table of contents: <!-- omit in toc -->
 
-- [Problem Statement](##Problem-Statement)
-- [Project Scope](##Project-Scope)
+- [Problem Statement](#Problem-Statement)
+- [Project Scope](#Project-Scope)
   * [Fact Finding Technique](#Fact-Finding-Technique)
-- [Proposed System](##Proposed-System)
-  * [Corwd Monitoring System Interface (Prototype)](###Corwd-Monitoring-System-Interface-(Prototype))
-- [Implementation](##Implementation)
-  * [System Results](###System-Results)
-- [Conclusion](##Conclusion)
+- [Proposed System](#Proposed-System)
+  * [Corwd Monitoring System Interface (Prototype)](#Corwd-Monitoring-System-Interface-(Prototype))
+- [Implementation](#Implementation)
+  * [System Results](#System-Results)
+- [Conclusion](#Conclusion)
 - [References](#References)
   * [Appendix](#Appendix)
 
